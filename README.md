@@ -58,9 +58,7 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=asakuraku000&theme=algolia" alt="GitHub Streak"/>
 </div>
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=asakuraku000&theme=algolia&no-frame=true&no-bg=false&margin-w=4&row=1" />
-</div>
+
 
 ---
 
