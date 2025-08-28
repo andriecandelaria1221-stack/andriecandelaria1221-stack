@@ -1,22 +1,22 @@
 # 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:141E30,100:243B55&height=220&section=header&text=MingMing&fontSize=90&fontAlignY=35&animation=twinkling&fontColor=ffffff" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:FF6B6B,20:4ECDC4,40:45B7D1,60:96CEB4,80:FFEAA7,100:DDA0DD&height=300&section=header&text=MingMing&fontSize=80&fontAlignY=40&animation=blinking&fontColor=ffffff&desc=Developer%20%7C%20Creator%20%7C%20Innovator&descAlignY=60&descSize=18" width="100%"/>
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=35&duration=3000&pause=1000&color=64FFDA&center=true&vCenter=true&multiline=true&width=800&height=120&lines=👋+Hi%2C+I'm+MingMing" alt="Typing SVG" />
+  <h1>
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=2000&pause=800&color=FF6B6B&center=true&vCenter=true&multiline=false&width=435&height=50&lines=console.log('Hello+World!');print('Welcome+to+my+profile');echo+'Nice+to+meet+you!'" alt="Typing SVG" />
+  </h1>
 </div>
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="600" style="border-radius: 15px;">
+  <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500" style="border-radius: 20px; box-shadow: 0 0 20px rgba(255, 107, 107, 0.3);">
 </div>
 
 <br/>
 
 <div align="center">
-  
-  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=20&duration=4000&pause=500&color=BB86FC&center=true&vCenter=true&width=600&height=30&lines=Passionate+about+creating+innovative+solutions;Building+the+future+with+code+and+creativity;Always+learning%2C+always+growing)](https://git.io/typing-svg)
-  
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=16&duration=3500&pause=700&color=4ECDC4&center=true&vCenter=true&width=500&height=40&lines=🌟+Crafting+digital+experiences+one+line+at+a+time;🚀+Turning+coffee+into+code+since+forever;💡+Building+tomorrow's+solutions+today" alt="Subtitle"/>
 </div>
 
 ---
@@ -24,26 +24,37 @@
 <br/>
 
 <h2 align="center">
-  <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35">
-  <strong>🌐 Connect With Me</strong>
+  <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="30" />
+  <span style="background: linear-gradient(45deg, #FF6B6B, #4ECDC4); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: bold;">🌐 Let's Connect</span>
+  <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="30" />
 </h2>
 
 <div align="center">
-  <a href="https://fb.com/mingmingcommissioner">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white&labelColor=1877F2&border_radius=20" alt="Facebook"/>
-  </a>
-  <a href="https://github.com/asakuraku000">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117&border_radius=20" alt="GitHub"/>
-  </a>
-  <a href="mailto:asakuraku000@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335&border_radius=20" alt="Email"/>
-  </a>
+  <table>
+    <tr>
+      <td>
+        <a href="https://fb.com/mingmingcommissioner">
+          <img src="https://img.shields.io/badge/Facebook-FF6B6B?style=for-the-badge&logo=facebook&logoColor=white&labelColor=FF6B6B" alt="Facebook" style="border-radius: 25px;"/>
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/asakuraku000">
+          <img src="https://img.shields.io/badge/GitHub-4ECDC4?style=for-the-badge&logo=github&logoColor=white&labelColor=4ECDC4" alt="GitHub" style="border-radius: 25px;"/>
+        </a>
+      </td>
+      <td>
+        <a href="mailto:asakuraku000@gmail.com">
+          <img src="https://img.shields.io/badge/Gmail-45B7D1?style=for-the-badge&logo=gmail&logoColor=white&labelColor=45B7D1" alt="Email" style="border-radius: 25px;"/>
+        </a>
+      </td>
+    </tr>
+  </table>
 </div>
 
 <div align="center">
   <br/>
-  <img src="https://komarev.com/ghpvc/?username=asakuraku000&label=Profile%20Views&color=blueviolet&style=for-the-badge&abbreviated=true" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/asakuraku000?label=Followers&style=for-the-badge&color=blue&labelColor=0D1117" alt="followers" />
+  <img src="https://komarev.com/ghpvc/?username=asakuraku000&label=Profile%20Views&color=FF6B6B&style=plastic&abbreviated=true" alt="Profile views" />
+  <img src="https://img.shields.io/github/followers/asakuraku000?label=Followers&style=plastic&color=4ECDC4&labelColor=45B7D1" alt="followers" />
 </div>
 
 ---
@@ -51,35 +62,48 @@
 <br/>
 
 <h2 align="center">
-  <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="35">
-  <strong>💻 Tech Arsenal</strong>
+  <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="40">
+  <strong>⚡ Tech Stack Universe</strong>
+  <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="40">
 </h2>
 
 <div align="center">
 
-### <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> **Languages & Core Technologies**
-<img src="https://skillicons.dev/icons?i=js,ts,python,java,cpp,cs,kotlin,dart,php,c,html,css,sass,go&theme=dark" />
+<table align="center">
+<tr>
+<td valign="top" width="50%">
 
-### <img src="https://media.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.gif" width="30"> **Frontend Development**
-<img src="https://skillicons.dev/icons?i=react,vue,angular,nextjs,nuxtjs,svelte,bootstrap,tailwind,materialui,figma&theme=dark" />
+### <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="25"> **Core Languages**
+<div align="center">
+<img src="https://skillicons.dev/icons?i=js,ts,python,java,cpp,cs,kotlin,dart" />
+</div>
 
-### <img src="https://media.giphy.com/media/kdFc8fubgS31b8DsVu/giphy.gif" width="30"> **Backend & Server-Side**
-<img src="https://skillicons.dev/icons?i=nodejs,django,flask,fastapi,express,nestjs,dotnet,spring,laravel,rails&theme=dark" />
+### <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="25"> **Frontend Magic**
+<div align="center">
+<img src="https://skillicons.dev/icons?i=react,vue,nextjs,tailwind,sass,html,css,figma" />
+</div>
 
-### <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="30"> **Mobile Development**
-<img src="https://skillicons.dev/icons?i=flutter,react,kotlin,java,swift,cordova,ionic,xamarin&theme=dark" />
+</td>
+<td valign="top" width="50%">
 
-### <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzFhY2JjZGQ5ZGQ5MjU5ZGUyZmY2NDk1YWY2NjE1NGQwNzk4MjJjNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/AeWoyE3ZT90YM/giphy.gif" width="30"> **Database & Storage**
-<img src="https://skillicons.dev/icons?i=mongodb,mysql,postgresql,sqlite,redis,firebase,supabase,dynamodb&theme=dark" />
+### <img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385b1974d7.gif" width="25"> **Backend Power**
+<div align="center">
+<img src="https://skillicons.dev/icons?i=nodejs,django,flask,express,nestjs,spring,laravel,rails" />
+</div>
 
-### <img src="https://media.giphy.com/media/kH6CqYiquZawmU1HI6/giphy.gif" width="30"> **Cloud & DevOps**
-<img src="https://skillicons.dev/icons?i=aws,gcp,azure,docker,kubernetes,jenkins,terraform,nginx,linux,git&theme=dark" />
+### <img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="25"> **Database & Cloud**
+<div align="center">
+<img src="https://skillicons.dev/icons?i=mongodb,mysql,postgresql,redis,aws,docker,kubernetes,git" />
+</div>
 
-### <img src="https://media.giphy.com/media/WFZvB7VIXBgiz3oDXE/giphy.gif" width="30"> **AI/ML & Data Science**
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,sklearn,r,matlab,jupyter&theme=dark" />
+</td>
+</tr>
+</table>
 
-### <img src="https://media.giphy.com/media/J5B1Y8QZnzXXbLQIBu/giphy.gif" width="30"> **Tools & Platforms**
-<img src="https://skillicons.dev/icons?i=vscode,idea,blender,unity,arduino,raspberrypi,postman,gradle&theme=dark" />
+### <img src="https://user-images.githubusercontent.com/74038190/212257463-4d082cb4-7483-4eaf-bc25-6dde2628aabd.gif" width="25"> **Mobile & More**
+<div align="center">
+<img src="https://skillicons.dev/icons?i=flutter,androidstudio,unity,blender,tensorflow,pytorch,r,matlab" />
+</div>
 
 </div>
 
@@ -88,21 +112,26 @@
 <br/>
 
 <h2 align="center">
-  <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">
-  <strong>📊 GitHub Analytics</strong>
+  <img src="https://user-images.githubusercontent.com/74038190/216655818-2e7b9a31-28ff-4490-91f0-b20c2818c7b4.gif" width="60">
+  <strong>📈 GitHub Insights</strong>
 </h2>
 
 <div align="center">
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=asakuraku000&show_icons=true&count_private=true&hide_border=true&title_color=64FFDA&icon_color=BB86FC&text_color=C9D1D9&bg_color=0D1117&border_radius=15" alt="MingMing github stats" /> 
-  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=asakuraku000&layout=compact&hide_border=true&title_color=64FFDA&text_color=C9D1D9&bg_color=0D1117&border_radius=15&langs_count=8" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=asakuraku000&show_icons=true&count_private=true&hide_border=true&title_color=FF6B6B&icon_color=4ECDC4&text_color=ffffff&bg_color=0D1117&border_radius=20&include_all_commits=true" />
+    <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=asakuraku000&show_icons=true&count_private=true&hide_border=true&title_color=FF6B6B&icon_color=4ECDC4&text_color=ffffff&bg_color=0D1117&border_radius=20" alt="MingMing's GitHub stats" />
+  </picture>
+  
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=asakuraku000&layout=compact&hide_border=true&title_color=FF6B6B&text_color=ffffff&bg_color=0D1117&border_radius=20&langs_count=10&card_width=320" />
+    <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=asakuraku000&layout=compact&hide_border=true&title_color=FF6B6B&text_color=ffffff&bg_color=0D1117&border_radius=20&langs_count=8" alt="Top Languages"/>
+  </picture>
 </div>
 
-<div align="center">
-  <img width="90%" src="https://github-readme-streak-stats.herokuapp.com/?user=asakuraku000&theme=radical&hide_border=true&background=0D1117&stroke=64FFDA&ring=BB86FC&fire=FF6B6B&currStreakNum=C9D1D9&sideNums=64FFDA&currStreakLabel=BB86FC&sideLabels=C9D1D9&dates=8B949E&border_radius=15" alt="GitHub Streak"/>
-</div>
+<br/>
 
 <div align="center">
-  <img width="90%" src="https://github-profile-trophy.vercel.app/?username=asakuraku000&theme=radical&no-frame=true&no-bg=false&margin-w=4&row=2&column=4&border_radius=15&bg_color=0D1117&title_color=64FFDA&text_color=C9D1D9" />
+  <img width="88%" src="https://github-readme-streak-stats.herokuapp.com/?user=asakuraku000&theme=tokyonight&hide_border=true&background=0D1117&stroke=FF6B6B&ring=4ECDC4&fire=FFEAA7&currStreakNum=ffffff&sideNums=FF6B6B&currStreakLabel=4ECDC4&sideLabels=ffffff&dates=96CEB4&border_radius=20" alt="GitHub Streak"/>
 </div>
 
 ---
@@ -110,12 +139,12 @@
 <br/>
 
 <h2 align="center">
-  <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="35">
-  <strong>📈 Contribution Activity</strong>
+  <img src="https://user-images.githubusercontent.com/74038190/216655834-dea8d0a0-9e9f-4df8-8f9b-46a3b7e8c906.gif" width="40">
+  <strong>🎯 Activity Graph</strong>
 </h2>
 
 <div align="center">
-  <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=asakuraku000&custom_title=MingMing's%20Contribution%20Graph&bg_color=0D1117&color=64FFDA&line=BB86FC&point=FF6B6B&area_color=243B55&area=true&hide_border=true&border_radius=15" />
+  <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=asakuraku000&custom_title=MingMing's%20Coding%20Journey&bg_color=0D1117&color=FF6B6B&line=4ECDC4&point=FFEAA7&area_color=45B7D1&area=true&hide_border=true&border_radius=20&height=400" />
 </div>
 
 ---
@@ -123,19 +152,21 @@
 <br/>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:141E30,100:243B55&height=120&section=footer&animation=twinkling&fontColor=ffffff" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:FF6B6B,25:4ECDC4,50:45B7D1,75:96CEB4,100:FFEAA7&height=200&section=footer&animation=twinkling&fontColor=ffffff&reversal=true" width="100%"/>
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=64FFDA&center=true&vCenter=true&width=600&height=60&lines=Thanks+for+visiting+my+profile!+✨;Let's+connect+and+build+together!+🤝;Happy+coding!+🚀" alt="Typing SVG" />
+  <h3>
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=24&duration=2500&pause=800&color=FF6B6B&center=true&vCenter=true&width=600&height=60&lines=Thanks+for+stopping+by!+🌟;Let's+build+something+amazing!+🚀;Keep+coding%2C+keep+creating!+💻" alt="Footer" />
+  </h3>
 </div>
 
 <div align="center">
-  <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60" />
+  <img src="https://user-images.githubusercontent.com/74038190/216655817-4f2d5fb8-9b3c-4b4b-85c2-7db64ec5bf8b.gif" width="80" />
 </div>
 
 ---
 
 <div align="center">
-  <sub>💝 Made with love by <a href="https://github.com/asakuraku000">MingMing</a></sub>
+  <sub>✨ Crafted with passion by <a href="https://github.com/asakuraku000">MingMing</a> ✨</sub>
 </div>
