@@ -1,10 +1,10 @@
 # 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:141E30,100:243B55&height=220&section=header&text=MingMing&fontSize=90&fontAlignY=35&animation=twinkling&fontColor=ffffff&desc=Full%20Stack%20Developer%20%7C%20AI%20Enthusiast&descAlignY=55&descSize=20" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:141E30,100:243B55&height=220&section=header&text=MingMing&fontSize=90&fontAlignY=35&animation=twinkling&fontColor=ffffff&desc=AI%20Enthusiast&descAlignY=55&descSize=20" width="100%"/>
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=35&duration=3000&pause=1000&color=64FFDA&center=true&vCenter=true&multiline=true&width=800&height=120&lines=👋+Hi%2C+I'm+MingMing;🚀+Full+Stack+Developer;📱+Mobile+App+Creator;🤖+AI+%26+ML+Enthusiast;🌟+Open+Source+Contributor" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=35&duration=3000&pause=1000&color=64FFDA&center=true&vCenter=true&multiline=true&width=800&height=120&lines=👋+Hi%2C+I'm+MingMing;🤖+AI+%26+ML+Enthusiast;🌟+Open+Source+Contributor" alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -75,7 +75,7 @@
 ### <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="30"> **Mobile Development**
 <img src="https://skillicons.dev/icons?i=flutter,react,kotlin,java,swift,cordova,ionic,xamarin&theme=dark" />
 
-### <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzFhY2JjZGQ1ZGQ5MjU5ZGUyZmY2NDk1YWY2NjE1NGQwNzk4MjJjNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/AeWoyE3ZT90YM/giphy.gif" width="30"> **Database & Storage**
+### <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzFhY2JjZGQ5ZGQ5MjU5ZGUyZmY2NDk1YWY2NjE1NGQwNzk4MjJjNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/AeWoyE3ZT90YM/giphy.gif" width="30"> **Database & Storage**
 <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgresql,sqlite,redis,firebase,supabase,dynamodb&theme=dark" />
 
 ### <img src="https://media.giphy.com/media/kH6CqYiquZawmU1HI6/giphy.gif" width="30"> **Cloud & DevOps**
@@ -122,73 +122,6 @@
 
 <div align="center">
   <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=asakuraku000&custom_title=MingMing's%20Contribution%20Graph&bg_color=0D1117&color=64FFDA&line=BB86FC&point=FF6B6B&area_color=243B55&area=true&hide_border=true&border_radius=15" />
-</div>
-
----
-
-<br/>
-
-<h2 align="center">
-  <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="35">
-  <strong>🚀 Featured Projects</strong>
-</h2>
-
-<div align="center">
-  <a href="https://github.com/asakuraku000/project1">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=asakuraku000&repo=project1&theme=radical&hide_border=true&bg_color=0D1117&border_radius=15" />
-  </a>
-  <a href="https://github.com/asakuraku000/project2">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=asakuraku000&repo=project2&theme=radical&hide_border=true&bg_color=0D1117&border_radius=15" />
-  </a>
-</div>
-
----
-
-<br/>
-
-<h2 align="center">
-  <img src="https://media.giphy.com/media/Q7SKqn3G97xpmfSOvG/giphy.gif" width="35">
-  <strong>🎯 Current Focus</strong>
-</h2>
-
-<div align="center">
-
-```typescript
-const mingming = {
-  currentFocus: ["AI/ML Applications", "Mobile Development", "Cloud Architecture"],
-  learningNext: ["Web3 Technologies", "Quantum Computing", "Advanced DevOps"],
-  collaborating: ["Open Source Projects", "Innovative Startups"],
-  askMeAbout: ["Full Stack Development", "Mobile Apps", "AI Integration"],
-  funFact: "I debug with console.log() and I'm proud of it! 🚀"
-};
-```
-
-</div>
-
----
-
-<br/>
-
-<h2 align="center">
-  <img src="https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif" width="35">
-  <strong>💡 Random Dev Quote</strong>
-</h2>
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&bg_color=0D1117&border_radius=15" />
-</div>
-
----
-
-<br/>
-
-<h2 align="center">
-  <img src="https://media.giphy.com/media/MeJgB3yMMwIaHmKD4z/giphy.gif" width="35">
-  <strong>🎵 Current Spotify Track</strong>
-</h2>
-
-<div align="center">
-  <img src="https://spotify-github-profile.vercel.app/api/spotify?background_color=0D1117&border_color=64FFDA" />
 </div>
 
 ---
