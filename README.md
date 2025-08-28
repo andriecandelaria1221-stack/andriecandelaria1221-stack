@@ -1,80 +1,49 @@
 # 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:FFB6C1,25:FFC0CB,50:FFCCCB,75:FFD1DC,100:FFE4E1&height=300&section=header&text=✧･ﾟ:*MingMing*:･ﾟ✧&fontSize=60&fontAlignY=40&animation=twinkling&fontColor=FF69B4&desc=◕‿◕%20Kawaii%20Coder%20◕‿◕%20UwU&descAlignY=65&descSize=18" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:141E30,100:243B55&height=220&section=header&text=MingMing&fontSize=90&fontAlignY=35&animation=twinkling&fontColor=ffffff" width="100%"/>
 </div>
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500" style="border-radius: 25px; border: 3px solid #FFB6C1; box-shadow: 0 0 20px rgba(255, 182, 193, 0.5);">
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=35&duration=3000&pause=1000&color=64FFDA&center=true&vCenter=true&multiline=true&width=800&height=120&lines=👋+Hi%2C+I'm+MingMing" alt="Typing SVG" />
 </div>
 
 <div align="center">
-  <h1>
-    <img src="https://readme-typing-svg.herokuapp.com?font=Comic+Sans+MS&weight=400&size=28&duration=2000&pause=1000&color=FF69B4&background=00000000&center=true&vCenter=true&multiline=true&width=600&height=120&lines=🌸+Hewwo+there!+🌸;💖+I'm+MingMing!+💖;✨+Let's+code+together!+✨;🎀+UwU+Nice+to+meet+you!+🎀;🦄+Magical+coding+time!+🦄" alt="Kawaii Greeting" />
-  </h1>
-</div>
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Comic+Sans+MS&size=16&duration=3000&pause=800&color=FF1493&center=true&vCenter=true&width=500&height=30&lines=💫+Spreading+coding+magic+everywhere!+💫;🌺+Making+the+world+cuter+one+line+at+a+time+🌺;🎉+Living+my+best+kawaii+life!+🎉;💕+Powered+by+love+and+bubble+tea!+💕" alt="Cute Subtitle"/>
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="600" style="border-radius: 15px;">
 </div>
 
 <br/>
 
-<table align="center" style="border: 3px solid #FFB6C1; background: linear-gradient(45deg, #FFF0F5, #FFE4E1, #FFF0F5); border-radius: 20px;">
-<tr>
-<td align="center">
-
-```
-    ╔══════════════════════════════════════╗
-    ║      🌸 KAWAII STATUS: ONLINE! 🌸    ║
-    ╠══════════════════════════════════════╣
-    ║  🎀 USER: MingMing-chan              ║
-    ║  💖 CUTENESS LEVEL: ████████████ MAX ║
-    ║  ✨ MAGIC POWERS: ∞ UNLIMITED ∞      ║
-    ║  🦄 FRIENDS MADE: 1,000,000+         ║
-    ║  🌈 MOOD: Super Duper Happy! (◕‿◕)   ║
-    ╚══════════════════════════════════════╝
-```
-
-</td>
-</tr>
-</table>
+<div align="center">
+  
+  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=20&duration=4000&pause=500&color=BB86FC&center=true&vCenter=true&width=600&height=30&lines=Passionate+about+creating+innovative+solutions;Building+the+future+with+code+and+creativity;Always+learning%2C+always+growing)](https://git.io/typing-svg)
+  
+</div>
 
 ---
 
 <br/>
 
 <h2 align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/216655818-2e7b9a31-28ff-4490-91f0-b20c2818c7b4.gif" width="40">
-  <span style="color: #FF69B4; text-shadow: 0 0 10px #FFB6C1;">🌸 ･ﾟ✧*:･ﾟ✧ KAWAII CONTACT PORTALS ✧ﾟ･: *✧･ﾟ 🌸</span>
-  <img src="https://user-images.githubusercontent.com/74038190/216655818-2e7b9a31-28ff-4490-91f0-b20c2818c7b4.gif" width="40">
+  <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35">
+  <strong>🌐 Connect With Me</strong>
 </h2>
 
 <div align="center">
-  <table style="border: none; background: linear-gradient(45deg, #FFF0F5, #FFE4E1, #FFCCCB);">
-    <tr>
-      <td>
-        <a href="https://fb.com/mingmingcommissioner">
-          <img src="https://img.shields.io/badge/🌸_Facebook_Garden-FFB6C1?style=for-the-badge&logo=facebook&logoColor=FF69B4&labelColor=FFF0F5&border=3" alt="Facebook Garden"/>
-        </a>
-      </td>
-      <td>
-        <a href="https://github.com/asakuraku000">
-          <img src="https://img.shields.io/badge/💖_GitHub_Castle-FFB6C1?style=for-the-badge&logo=github&logoColor=FF1493&labelColor=FFF0F5&border=3" alt="GitHub Castle"/>
-        </a>
-      </td>
-      <td>
-        <a href="mailto:asakuraku000@gmail.com">
-          <img src="https://img.shields.io/badge/🎀_Kawaii_Mail-FFB6C1?style=for-the-badge&logo=gmail&logoColor=FF69B4&labelColor=FFF0F5&border=3" alt="Kawaii Mail"/>
-        </a>
-      </td>
-    </tr>
-  </table>
+  <a href="https://fb.com/mingmingcommissioner">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white&labelColor=1877F2&border_radius=20" alt="Facebook"/>
+  </a>
+  <a href="https://github.com/asakuraku000">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117&border_radius=20" alt="GitHub"/>
+  </a>
+  <a href="mailto:asakuraku000@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335&border_radius=20" alt="Email"/>
+  </a>
 </div>
 
 <div align="center">
   <br/>
-  <img src="https://komarev.com/ghpvc/?username=asakuraku000&label=KAWAII_VISITORS&color=FFB6C1&style=plastic&abbreviated=true" alt="Kawaii Visitors" />
-  <img src="https://img.shields.io/github/followers/asakuraku000?label=CUTE_FRIENDS&style=plastic&color=FF69B4&labelColor=FFF0F5" alt="Cute Friends" />
+  <img src="https://komarev.com/ghpvc/?username=asakuraku000&label=Profile%20Views&color=blueviolet&style=for-the-badge&abbreviated=true" alt="Profile views" />
+  <img src="https://img.shields.io/github/followers/asakuraku000?label=Followers&style=for-the-badge&color=blue&labelColor=0D1117" alt="followers" />
 </div>
 
 ---
@@ -82,52 +51,35 @@
 <br/>
 
 <h2 align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/216655834-dea8d0a0-9e9f-4df8-8f9b-46a3b7e8c906.gif" width="50">
-  <strong style="color: #FF1493; text-shadow: 0 0 15px #FFB6C1;">🦄 ✧･ﾟ: MAGICAL CODING TOOLKIT :･ﾟ✧ 🦄</strong>
-  <img src="https://user-images.githubusercontent.com/74038190/216655834-dea8d0a0-9e9f-4df8-8f9b-46a3b7e8c906.gif" width="50">
+  <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="35">
+  <strong>💻 Tech Arsenal</strong>
 </h2>
 
-<div align="center" style="background: linear-gradient(135deg, #FFF0F5, #FFE4E1, #FFCCCB); border: 3px solid #FFB6C1; border-radius: 25px; padding: 30px;">
+<div align="center">
 
-### <img src="https://user-images.githubusercontent.com/74038190/216655817-4f2d5fb8-9b3c-4b4b-85c2-7db64ec5bf8b.gif" width="30"> **🌸 Magical Languages Collection 🌸**
-<div align="center" style="background: #FFF0F5; padding: 20px; border-radius: 15px; border: 2px solid #FFB6C1;">
-<img src="https://skillicons.dev/icons?i=js,ts,python,java,cpp,cs,kotlin,dart,php,c,go&theme=light&perline=11" />
-</div>
+### <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> **Languages & Core Technologies**
+<img src="https://skillicons.dev/icons?i=js,ts,python,java,cpp,cs,kotlin,dart,php,c,html,css,sass,go&theme=dark" />
 
-### <img src="https://user-images.githubusercontent.com/74038190/216655818-2e7b9a31-28ff-4490-91f0-b20c2818c7b4.gif" width="30"> **💖 Frontend Sparkles & Glitter 💖**
-<div align="center" style="background: #FFF0F5; padding: 20px; border-radius: 15px; border: 2px solid #FFB6C1;">
-<img src="https://skillicons.dev/icons?i=react,vue,angular,nextjs,nuxtjs,svelte,html,css,sass,tailwind,bootstrap,materialui,figma&theme=light&perline=13" />
-</div>
+### <img src="https://media.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.gif" width="30"> **Frontend Development**
+<img src="https://skillicons.dev/icons?i=react,vue,angular,nextjs,nuxtjs,svelte,bootstrap,tailwind,materialui,figma&theme=dark" />
 
-### <img src="https://user-images.githubusercontent.com/74038190/216655834-dea8d0a0-9e9f-4df8-8f9b-46a3b7e8c906.gif" width="30"> **🎀 Backend Rainbow Magic 🎀**
-<div align="center" style="background: #FFF0F5; padding: 20px; border-radius: 15px; border: 2px solid #FFB6C1;">
-<img src="https://skillicons.dev/icons?i=nodejs,django,flask,fastapi,express,nestjs,dotnet,spring,laravel,rails,ruby,php&theme=light&perline=12" />
-</div>
+### <img src="https://media.giphy.com/media/kdFc8fubgS31b8DsVu/giphy.gif" width="30"> **Backend & Server-Side**
+<img src="https://skillicons.dev/icons?i=nodejs,django,flask,fastapi,express,nestjs,dotnet,spring,laravel,rails&theme=dark" />
 
-### <img src="https://user-images.githubusercontent.com/74038190/216655817-4f2d5fb8-9b3c-4b4b-85c2-7db64ec5bf8b.gif" width="30"> **🌺 Database Fairy Kingdom 🌺**
-<div align="center" style="background: #FFF0F5; padding: 20px; border-radius: 15px; border: 2px solid #FFB6C1;">
-<img src="https://skillicons.dev/icons?i=mongodb,mysql,postgresql,sqlite,redis,firebase,supabase,dynamodb&theme=light&perline=8" />
-</div>
+### <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="30"> **Mobile Development**
+<img src="https://skillicons.dev/icons?i=flutter,react,kotlin,java,swift,cordova,ionic,xamarin&theme=dark" />
 
-### <img src="https://user-images.githubusercontent.com/74038190/216655818-2e7b9a31-28ff-4490-91f0-b20c2818c7b4.gif" width="30"> **📱 Mobile Unicorn Adventures 📱**
-<div align="center" style="background: #FFF0F5; padding: 20px; border-radius: 15px; border: 2px solid #FFB6C1;">
-<img src="https://skillicons.dev/icons?i=flutter,react,kotlin,java,swift,cordova,ionic,xamarin,androidstudio,xcode&theme=light&perline=10" />
-</div>
+### <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzFhY2JjZGQ5ZGQ5MjU5ZGUyZmY2NDk1YWY2NjE1NGQwNzk4MjJjNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/AeWoyE3ZT90YM/giphy.gif" width="30"> **Database & Storage**
+<img src="https://skillicons.dev/icons?i=mongodb,mysql,postgresql,sqlite,redis,firebase,supabase,dynamodb&theme=dark" />
 
-### <img src="https://user-images.githubusercontent.com/74038190/216655834-dea8d0a0-9e9f-4df8-8f9b-46a3b7e8c906.gif" width="30"> **☁️ Cloud Castle & DevOps Dreams ☁️**
-<div align="center" style="background: #FFF0F5; padding: 20px; border-radius: 15px; border: 2px solid #FFB6C1;">
-<img src="https://skillicons.dev/icons?i=aws,gcp,azure,docker,kubernetes,jenkins,terraform,nginx,linux,git,github,gitlab&theme=light&perline=12" />
-</div>
+### <img src="https://media.giphy.com/media/kH6CqYiquZawmU1HI6/giphy.gif" width="30"> **Cloud & DevOps**
+<img src="https://skillicons.dev/icons?i=aws,gcp,azure,docker,kubernetes,jenkins,terraform,nginx,linux,git&theme=dark" />
 
-### <img src="https://user-images.githubusercontent.com/74038190/216655817-4f2d5fb8-9b3c-4b4b-85c2-7db64ec5bf8b.gif" width="30"> **🧠 AI/ML Magical Creatures 🧠**
-<div align="center" style="background: #FFF0F5; padding: 20px; border-radius: 15px; border: 2px solid #FFB6C1;">
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,sklearn,r,matlab,jupyter&theme=light&perline=7" />
-</div>
+### <img src="https://media.giphy.com/media/WFZvB7VIXBgiz3oDXE/giphy.gif" width="30"> **AI/ML & Data Science**
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,sklearn,r,matlab,jupyter&theme=dark" />
 
-### <img src="https://user-images.githubusercontent.com/74038190/216655818-2e7b9a31-28ff-4490-91f0-b20c2818c7b4.gif" width="30"> **🛠️ Kawaii Tools Treasure Box 🛠️**
-<div align="center" style="background: #FFF0F5; padding: 20px; border-radius: 15px; border: 2px solid #FFB6C1;">
-<img src="https://skillicons.dev/icons?i=vscode,idea,vim,emacs,blender,unity,arduino,raspberrypi,postman,gradle,maven,webpack&theme=light&perline=12" />
-</div>
+### <img src="https://media.giphy.com/media/J5B1Y8QZnzXXbLQIBu/giphy.gif" width="30"> **Tools & Platforms**
+<img src="https://skillicons.dev/icons?i=vscode,idea,blender,unity,arduino,raspberrypi,postman,gradle&theme=dark" />
 
 </div>
 
@@ -136,20 +88,21 @@
 <br/>
 
 <h2 align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/216655818-2e7b9a31-28ff-4490-91f0-b20c2818c7b4.gif" width="60">
-  <strong style="color: #FF69B4; text-shadow: 0 0 20px #FFB6C1;">🌈 ･ﾟ✧*:･ﾟ✧ CODING FAIRY STATS ✧ﾟ･: *✧･ﾟ 🌈</strong>
+  <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">
+  <strong>📊 GitHub Analytics</strong>
 </h2>
 
-<div align="center" style="background: linear-gradient(135deg, #FFF0F5, #FFE4E1, #FFCCCB); border: 3px solid #FFB6C1; border-radius: 25px; padding: 20px;">
-  <img width="49%" height="200px" src="https://github-readme-stats.vercel.app/api?username=asakuraku000&show_icons=true&count_private=true&hide_border=true&title_color=FF69B4&icon_color=FF1493&text_color=FF69B4&bg_color=FFF0F5&border_radius=20" alt="Kawaii Stats" />
-  
-  <img width="41%" height="200px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=asakuraku000&layout=compact&hide_border=true&title_color=FF69B4&text_color=FF1493&bg_color=FFF0F5&border_radius=20&langs_count=8&card_width=320" alt="Magical Languages"/>
+<div align="center">
+  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=asakuraku000&show_icons=true&count_private=true&hide_border=true&title_color=64FFDA&icon_color=BB86FC&text_color=C9D1D9&bg_color=0D1117&border_radius=15" alt="MingMing github stats" /> 
+  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=asakuraku000&layout=compact&hide_border=true&title_color=64FFDA&text_color=C9D1D9&bg_color=0D1117&border_radius=15&langs_count=8" />
 </div>
 
-<br/>
+<div align="center">
+  <img width="90%" src="https://github-readme-streak-stats.herokuapp.com/?user=asakuraku000&theme=radical&hide_border=true&background=0D1117&stroke=64FFDA&ring=BB86FC&fire=FF6B6B&currStreakNum=C9D1D9&sideNums=64FFDA&currStreakLabel=BB86FC&sideLabels=C9D1D9&dates=8B949E&border_radius=15" alt="GitHub Streak"/>
+</div>
 
 <div align="center">
-  <img width="88%" src="https://github-readme-streak-stats.herokuapp.com/?user=asakuraku000&theme=buefy-light&hide_border=true&background=FFF0F5&stroke=FF69B4&ring=FF1493&fire=FFB6C1&currStreakNum=FF69B4&sideNums=FF1493&currStreakLabel=FF69B4&sideLabels=FF1493&dates=FF69B4&border_radius=20" alt="Magical Coding Streak"/>
+  <img width="90%" src="https://github-profile-trophy.vercel.app/?username=asakuraku000&theme=radical&no-frame=true&no-bg=false&margin-w=4&row=2&column=4&border_radius=15&bg_color=0D1117&title_color=64FFDA&text_color=C9D1D9" />
 </div>
 
 ---
@@ -157,54 +110,32 @@
 <br/>
 
 <h2 align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/216655834-dea8d0a0-9e9f-4df8-8f9b-46a3b7e8c906.gif" width="50">
-  <strong style="color: #FF1493; text-shadow: 0 0 25px #FFB6C1;">🦄 ･ﾟ✧*:･ﾟ✧ KAWAII ACTIVITY RAINBOW ✧ﾟ･: *✧･ﾟ 🦄</strong>
+  <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="35">
+  <strong>📈 Contribution Activity</strong>
 </h2>
 
-<div align="center" style="border: 3px solid #FFB6C1; border-radius: 25px; background: linear-gradient(135deg, #FFF0F5, #FFE4E1, #FFCCCB, #FFE4E1, #FFF0F5); padding: 15px;">
-  <img width="92%" src="https://github-readme-activity-graph.vercel.app/graph?username=asakuraku000&custom_title=MINGMING'S%20MAGICAL%20CODING%20ADVENTURE%20-%20SPREADING%20KAWAII%20EVERYWHERE!&bg_color=FFF0F5&color=FF69B4&line=FF1493&point=FFB6C1&area_color=FFE4E1&area=true&hide_border=true&border_radius=20&height=400" />
+<div align="center">
+  <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=asakuraku000&custom_title=MingMing's%20Contribution%20Graph&bg_color=0D1117&color=64FFDA&line=BB86FC&point=FF6B6B&area_color=243B55&area=true&hide_border=true&border_radius=15" />
 </div>
 
 ---
 
 <br/>
 
-<div align="center" style="background: linear-gradient(135deg, #FFF0F5, #FFE4E1, #FFCCCB, #FFD1DC, #FFB6C1); padding: 30px; border-radius: 25px;">
-
-```
-    🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸
-    🌸                                                                     🌸
-    🌸         "CODING IS LIKE MAGIC - IT MAKES DREAMS COME TRUE! ✨"     🌸
-    🌸                                                                     🌸
-    🌸       "EVERY BUG IS JUST A PUZZLE WAITING TO BE SOLVED! 🧩"       🌸
-    🌸                                                                     🌸
-    🌸            "LET'S MAKE THE DIGITAL WORLD MORE KAWAII! 🦄"          🌸
-    🌸                                                                     🌸
-    🌸                    "UwU THANK YOU FOR VISITING! ◕‿◕"               🌸
-    🌸                                                                     🌸
-    🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸
-```
-
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:141E30,100:243B55&height=120&section=footer&animation=twinkling&fontColor=ffffff" width="100%"/>
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFB6C1,25:FFC0CB,50:FFCCCB,75:FFD1DC,100:FFE4E1&height=180&section=footer&text=✧･ﾟ:*Arigatou*:･ﾟ✧&fontSize=32&fontAlignY=35&animation=twinkling&fontColor=FF69B4&desc=Keep%20being%20awesome!%20◕‿◕&descAlignY=55&descSize=16" width="100%"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=64FFDA&center=true&vCenter=true&width=600&height=60&lines=Thanks+for+visiting+my+profile!+✨;Let's+connect+and+build+together!+🤝;Happy+coding!+🚀" alt="Typing SVG" />
 </div>
 
 <div align="center">
-  <h3>
-    <img src="https://readme-typing-svg.herokuapp.com?font=Comic+Sans+MS&weight=400&size=20&duration=2500&pause=1000&color=FF69B4&center=true&vCenter=true&width=600&height=50&lines=🌸+Thank+you+for+visiting!+🌸;💖+Let's+be+coding+buddies!+💖;🦄+May+your+code+be+bug-free!+🦄;✨+Sending+you+magical+vibes!+✨" alt="Kawaii Farewell" />
-  </h3>
-</div>
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/216655817-4f2d5fb8-9b3c-4b4b-85c2-7db64ec5bf8b.gif" width="100" />
-  <img src="https://user-images.githubusercontent.com/74038190/216655818-2e7b9a31-28ff-4490-91f0-b20c2818c7b4.gif" width="100" />
-  <img src="https://user-images.githubusercontent.com/74038190/216655834-dea8d0a0-9e9f-4df8-8f9b-46a3b7e8c906.gif" width="100" />
+  <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60" />
 </div>
 
 ---
 
 <div align="center">
-  <sub style="color: #FF69B4; text-shadow: 0 0 10px #FFB6C1;">🌸 Made with lots of love and kawaii magic by <a href="https://github.com/asakuraku000" style="color: #FF1493; text-decoration: none;">MingMing-chan</a> 🌸</sub>
+  <sub>💝 Made with love by <a href="https://github.com/asakuraku000">MingMing</a></sub>
 </div>
