@@ -101,10 +101,6 @@
   <img width="90%" src="https://github-readme-streak-stats.herokuapp.com/?user=asakuraku000&theme=radical&hide_border=true&background=0D1117&stroke=64FFDA&ring=BB86FC&fire=FF6B6B&currStreakNum=C9D1D9&sideNums=64FFDA&currStreakLabel=BB86FC&sideLabels=C9D1D9&dates=8B949E&border_radius=15" alt="GitHub Streak"/>
 </div>
 
-<div align="center">
-  <img width="90%" src="https://github-profile-trophy.vercel.app/?username=asakuraku000&theme=radical&no-frame=true&no-bg=false&margin-w=4&row=2&column=4&border_radius=15&bg_color=0D1117&title_color=64FFDA&text_color=C9D1D9" />
-</div>
-
 ---
 
 <br/>
