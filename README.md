@@ -1,640 +1,311 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MingMing - GitHub Profile</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Inter', sans-serif;
-            background: linear-gradient(135deg, #0d1117 0%, #1a1f2e 50%, #0d1117 100%);
-            color: #e6edf3;
-            min-height: 100vh;
-            overflow-x: hidden;
-        }
-        
-        .stars {
-            position: fixed;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-            z-index: -1;
-        }
-        
-        .star {
-            position: absolute;
-            width: 2px;
-            height: 2px;
-            background: #fff;
-            border-radius: 50%;
-            animation: twinkle 3s infinite alternate;
-        }
-        
-        @keyframes twinkle {
-            0% { opacity: 0.3; }
-            100% { opacity: 1; }
-        }
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        
-        .profile-header {
-            text-align: center;
-            margin-bottom: 50px;
-            animation: fadeInDown 1s ease-out;
-        }
-        
-        .profile-avatar {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            background: linear-gradient(45deg, #7c3aed, #2563eb, #06b6d4);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 auto 30px;
-            position: relative;
-            animation: float 3s ease-in-out infinite;
-        }
-        
-        .profile-avatar::before {
-            content: '';
-            position: absolute;
-            top: -5px;
-            left: -5px;
-            right: -5px;
-            bottom: -5px;
-            background: linear-gradient(45deg, #7c3aed, #2563eb, #06b6d4, #7c3aed);
-            border-radius: 50%;
-            z-index: -1;
-            animation: rotate 4s linear infinite;
-        }
-        
-        .avatar-text {
-            font-size: 4rem;
-            font-weight: 700;
-            color: white;
-            text-shadow: 0 0 20px rgba(255,255,255,0.5);
-        }
-        
-        @keyframes float {
-            0%, 100% { transform: translateY(0px); }
-            50% { transform: translateY(-10px); }
-        }
-        
-        @keyframes rotate {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-        
-        .profile-name {
-            font-size: 3rem;
-            font-weight: 700;
-            margin-bottom: 10px;
-            background: linear-gradient(45deg, #7c3aed, #2563eb, #06b6d4);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            animation: shimmer 2s ease-in-out infinite;
-        }
-        
-        @keyframes shimmer {
-            0%, 100% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-        }
-        
-        .profile-title {
-            font-size: 1.5rem;
-            color: #8b949e;
-            margin-bottom: 20px;
-        }
-        
-        .typing-text {
-            font-size: 1.2rem;
-            color: #7c3aed;
-            border-right: 2px solid #7c3aed;
-            white-space: nowrap;
-            overflow: hidden;
-            animation: typing 4s steps(40, end) infinite, blink 1s infinite;
-        }
-        
-        @keyframes typing {
-            0% { width: 0; }
-            50% { width: 100%; }
-            100% { width: 0; }
-        }
-        
-        @keyframes blink {
-            50% { border-color: transparent; }
-        }
-        
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 30px;
-            margin-bottom: 50px;
-            animation: fadeInUp 1s ease-out 0.3s both;
-        }
-        
-        .stat-card {
-            background: rgba(22, 27, 34, 0.8);
-            border: 1px solid #30363d;
-            border-radius: 15px;
-            padding: 30px;
-            text-align: center;
-            transition: all 0.3s ease;
-            backdrop-filter: blur(10px);
-        }
-        
-        .stat-card:hover {
-            transform: translateY(-10px);
-            border-color: #7c3aed;
-            box-shadow: 0 20px 40px rgba(124, 58, 237, 0.3);
-        }
-        
-        .stat-number {
-            font-size: 2.5rem;
-            font-weight: 700;
-            color: #7c3aed;
-            margin-bottom: 10px;
-            animation: countUp 2s ease-out;
-        }
-        
-        @keyframes countUp {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        
-        .stat-label {
-            color: #8b949e;
-            font-weight: 500;
-        }
-        
-        .skills-section {
-            animation: fadeInUp 1s ease-out 0.6s both;
-        }
-        
-        .section-title {
-            font-size: 2.5rem;
-            font-weight: 700;
-            text-align: center;
-            margin-bottom: 40px;
-            color: #e6edf3;
-        }
-        
-        .skills-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-        }
-        
-        .skill-category {
-            background: rgba(22, 27, 34, 0.8);
-            border: 1px solid #30363d;
-            border-radius: 15px;
-            padding: 30px;
-            backdrop-filter: blur(10px);
-            transition: all 0.3s ease;
-        }
-        
-        .skill-category:hover {
-            border-color: #7c3aed;
-            box-shadow: 0 10px 30px rgba(124, 58, 237, 0.2);
-        }
-        
-        .category-title {
-            font-size: 1.5rem;
-            font-weight: 600;
-            margin-bottom: 20px;
-            color: #7c3aed;
-            display: flex;
-            align-items: center;
-        }
-        
-        .category-icon {
-            margin-right: 10px;
-            font-size: 1.8rem;
-        }
-        
-        .skills-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 12px;
-        }
-        
-        .skill-tag {
-            background: linear-gradient(45deg, #7c3aed, #2563eb);
-            color: white;
-            padding: 8px 16px;
-            border-radius: 25px;
-            font-weight: 500;
-            font-size: 0.9rem;
-            transition: all 0.3s ease;
-            cursor: pointer;
-            animation: slideInRight 0.5s ease-out;
-        }
-        
-        .skill-tag:hover {
-            transform: scale(1.1);
-            box-shadow: 0 5px 15px rgba(124, 58, 237, 0.4);
-        }
-        
-        @keyframes slideInRight {
-            from { opacity: 0; transform: translateX(50px); }
-            to { opacity: 1; transform: translateX(0); }
-        }
-        
-        .activity-graph {
-            margin: 50px 0;
-            background: rgba(22, 27, 34, 0.8);
-            border: 1px solid #30363d;
-            border-radius: 15px;
-            padding: 30px;
-            backdrop-filter: blur(10px);
-            animation: fadeInUp 1s ease-out 0.9s both;
-        }
-        
-        .graph-title {
-            font-size: 1.5rem;
-            font-weight: 600;
-            margin-bottom: 20px;
-            text-align: center;
-        }
-        
-        .graph-container {
-            display: grid;
-            grid-template-columns: repeat(52, 1fr);
-            gap: 3px;
-            margin: 20px 0;
-        }
-        
-        .graph-cell {
-            width: 12px;
-            height: 12px;
-            border-radius: 2px;
-            background: #161b22;
-            transition: all 0.3s ease;
-        }
-        
-        .graph-cell.active-1 { background: #0e4429; }
-        .graph-cell.active-2 { background: #006d32; }
-        .graph-cell.active-3 { background: #26a641; }
-        .graph-cell.active-4 { background: #39d353; }
-        
-        .footer {
-            text-align: center;
-            margin-top: 50px;
-            padding: 30px;
-            color: #8b949e;
-            animation: fadeIn 1s ease-out 1.2s both;
-        }
-        
-        .social-links {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-bottom: 20px;
-        }
-        
-        .social-link {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 50px;
-            height: 50px;
-            background: linear-gradient(45deg, #7c3aed, #2563eb);
-            border-radius: 50%;
-            color: white;
-            text-decoration: none;
-            font-size: 1.5rem;
-            transition: all 0.3s ease;
-        }
-        
-        .social-link:hover {
-            transform: scale(1.2) rotate(360deg);
-            box-shadow: 0 10px 20px rgba(124, 58, 237, 0.4);
-        }
-        
-        @keyframes fadeInDown {
-            from { opacity: 0; transform: translateY(-50px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        
-        @keyframes fadeInUp {
-            from { opacity: 0; transform: translateY(50px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-        
-        .particle {
-            position: absolute;
-            width: 6px;
-            height: 6px;
-            background: #7c3aed;
-            border-radius: 50%;
-            pointer-events: none;
-            animation: particleFloat 3s ease-out forwards;
-        }
-        
-        @keyframes particleFloat {
-            0% {
-                opacity: 1;
-                transform: scale(1) translateY(0);
-            }
-            100% {
-                opacity: 0;
-                transform: scale(0.5) translateY(-100px);
-            }
-        }
-        
-        @media (max-width: 768px) {
-            .profile-name {
-                font-size: 2rem;
-            }
-            
-            .stats-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .skills-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .graph-container {
-                grid-template-columns: repeat(26, 1fr);
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="stars"></div>
+# 👋 Hi there, I'm **MingMing**!
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&multiline=true&width=600&height=100&lines=Full-Stack+Developer;AI+%26+Machine+Learning+Enthusiast;Building+the+Future+with+Code!" alt="Typing SVG" />
+</div>
+
+<div align="center">
+  <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="400" height="200"/>
+</div>
+
+---
+
+## 🚀 About Me
+
+```javascript
+const MingMing = {
+    pronouns: "He/Him",
+    code: ["JavaScript", "Python", "Java", "C++", "C#", "PHP", "Kotlin"],
+    askMeAbout: ["web dev", "tech", "app dev", "machine learning", "AI"],
+    technologies: {
+        frontEnd: {
+            js: ["React", "jQuery"],
+            css: ["Bootstrap", "Tailwind"],
+            mobile: ["Flutter", "React Native"]
+        },
+        backEnd: {
+            php: ["Laravel", "CodeIgniter"],
+            python: ["Django", "Flask"],
+            java: ["Spring Boot"],
+            csharp: [".NET Core", "ASP.NET"],
+            kotlin: ["Spring Boot", "Android"]
+        },
+        devOps: ["Docker", "CI/CD", "AWS", "Azure"],
+        databases: ["MySQL", "SQLite", "SQL Server", "MongoDB"],
+        misc: ["Firebase", "Socket.IO", "GraphQL", "REST APIs"]
+    },
+    architecture: ["Serverless Architecture", "Progressive web applications", "Single page applications"],
+    currentFocus: "Building AI-powered applications",
+    funFact: "I debug with console.log() and I'm proud of it!"
+};
+```
+
+---
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+### 🌐 Frontend
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
+
+### ⚙️ Backend
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white)
+
+### 💾 Databases
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+![Microsoft SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
+
+### ⚡ Systems Programming
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+
+### 📱 Mobile
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+
+### 🤖 AI & Machine Learning
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white)
+
+### 🛠️ Tools
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+</div>
+
+---
+
+## 🔥 My Stats
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MingMing&theme=radical&hide_border=true" alt="MingMing's GitHub streak"/>
+</div>
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=MingMing&show_icons=true&theme=radical&hide_border=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MingMing&layout=compact&theme=radical&hide_border=true"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MingMing&theme=react-dark&hide_border=true" width="100%"/>
+</div>
+
+---
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=MingMing&theme=radical&no-frame=true&no-bg=true&margin-w=4" />
+</div>
+
+---
+
+## 🤖 AI & Machine Learning Projects
+
+<div align="center">
+
+### 🎯 Computer Vision
+- **YOLO Object Detection** - Real-time object detection system
+- **CNN Image Classifier** - Deep learning image recognition
+- **Face Recognition System** - Advanced facial detection and recognition
+
+### 🧠 Machine Learning
+- **Predictive Analytics** - Data-driven prediction models
+- **Natural Language Processing** - Text analysis and sentiment detection
+- **Recommendation Systems** - AI-powered content suggestions
+
+</div>
+
+---
+
+## 📈 Contribution Graph
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MingMing&bg_color=0D1117&color=7c3aed&line=2563eb&point=06b6d4&area=true&hide_border=true" />
+</div>
+
+---
+
+## 🌟 Featured Projects
+
+<div align="center">
+
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=MingMing&repo=ai-object-detection&theme=radical&hide_border=true)](https://github.com/MingMing/ai-object-detection)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=MingMing&repo=full-stack-ecommerce&theme=radical&hide_border=true)](https://github.com/MingMing/full-stack-ecommerce)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=MingMing&repo=flutter-mobile-app&theme=radical&hide_border=true)](https://github.com/MingMing/flutter-mobile-app)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=MingMing&repo=machine-learning-models&theme=radical&hide_border=true)](https://github.com/MingMing/machine-learning-models)
+
+</div>
+
+---
+
+## 📊 Detailed Stats
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MingMing&theme=radical" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MingMing&theme=radical" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=MingMing&theme=radical" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MingMing&theme=radical" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=MingMing&theme=radical&utcOffset=8" />
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/MingMing/MingMing/output/github-contribution-grid-snake-dark.svg" />
+</div>
+
+---
+
+## 💻 Coding Activity
+
+<div align="center">
+  <img src="https://wakatime.com/share/@MingMing/018e7e76-5a28-4a9c-97cb-cc38a4f17ec5.svg" width="500" />
+</div>
+
+---
+
+## 🎯 Current Focus
+
+<div align="center">
+  <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="400" height="250"/>
+</div>
+
+- 🔭 I'm currently working on **AI-powered web applications**
+- 🌱 I'm currently learning **Advanced Machine Learning & Cloud Computing**
+- 👯 I'm looking to collaborate on **Open Source AI projects**
+- 🤔 I'm looking for help with **Distributed Systems**
+- 💬 Ask me about **Full-stack development, AI/ML, or any tech stuff**
+- 📫 How to reach me: **mingming@example.com**
+- ⚡ Fun fact: **I can code in 15+ programming languages!**
+
+---
+
+## 🤝 Connect with Me
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MingMing)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/MingMing)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/MingMing)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/MingMing)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@MingMing)
+[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/MingMing)
+
+</div>
+
+---
+
+## 💼 Professional Experience
+
+```yaml
+experience:
+  - role: "Senior Full-Stack Developer"
+    company: "Tech Innovations Inc."
+    duration: "2022 - Present"
+    technologies: ["React", "Node.js", "Python", "AWS"]
     
-    <div class="container">
-        <div class="profile-header">
-            <div class="profile-avatar">
-                <div class="avatar-text">MM</div>
-            </div>
-            <h1 class="profile-name">MingMing</h1>
-            <p class="profile-title">Full-Stack Developer & AI Enthusiast</p>
-            <p class="typing-text">Building the future with code and intelligence...</p>
-        </div>
-        
-        <div class="stats-grid">
-            <div class="stat-card">
-                <div class="stat-number">500+</div>
-                <div class="stat-label">Repositories</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">2.5K</div>
-                <div class="stat-label">Contributions</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">15+</div>
-                <div class="stat-label">Languages</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">50+</div>
-                <div class="stat-label">Projects</div>
-            </div>
-        </div>
-        
-        <div class="skills-section">
-            <h2 class="section-title">💻 Technical Arsenal</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3 class="category-title">
-                        <span class="category-icon">🌐</span>
-                        Frontend
-                    </h3>
-                    <div class="skills-list">
-                        <span class="skill-tag">HTML</span>
-                        <span class="skill-tag">CSS</span>
-                        <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">React</span>
-                        <span class="skill-tag">jQuery</span>
-                        <span class="skill-tag">Flutter</span>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <h3 class="category-title">
-                        <span class="category-icon">⚙️</span>
-                        Backend
-                    </h3>
-                    <div class="skills-list">
-                        <span class="skill-tag">PHP</span>
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">Java</span>
-                        <span class="skill-tag">C#</span>
-                        <span class="skill-tag">Kotlin</span>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <h3 class="category-title">
-                        <span class="category-icon">💾</span>
-                        Databases
-                    </h3>
-                    <div class="skills-list">
-                        <span class="skill-tag">MySQL</span>
-                        <span class="skill-tag">SQLite</span>
-                        <span class="skill-tag">SQL Server</span>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <h3 class="category-title">
-                        <span class="category-icon">⚡</span>
-                        Systems
-                    </h3>
-                    <div class="skills-list">
-                        <span class="skill-tag">C++</span>
-                        <span class="skill-tag">C</span>
-                        <span class="skill-tag">C#</span>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <h3 class="category-title">
-                        <span class="category-icon">🤖</span>
-                        AI & ML
-                    </h3>
-                    <div class="skills-list">
-                        <span class="skill-tag">Machine Learning</span>
-                        <span class="skill-tag">CNN</span>
-                        <span class="skill-tag">YOLO</span>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <h3 class="category-title">
-                        <span class="category-icon">🛠️</span>
-                        Tools
-                    </h3>
-                    <div class="skills-list">
-                        <span class="skill-tag">VS Code</span>
-                        <span class="skill-tag">XAMPP</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="activity-graph">
-            <h3 class="graph-title">📈 Contribution Activity</h3>
-            <div class="graph-container" id="contribution-graph">
-                <!-- Contribution squares will be generated by JavaScript -->
-            </div>
-        </div>
-        
-        <div class="footer">
-            <div class="social-links">
-                <a href="#" class="social-link" title="GitHub">🐱</a>
-                <a href="#" class="social-link" title="LinkedIn">💼</a>
-                <a href="#" class="social-link" title="Twitter">🐦</a>
-                <a href="#" class="social-link" title="Email">📧</a>
-            </div>
-            <p>⭐ "Code is poetry, and I'm writing verses that change the world" ⭐</p>
-        </div>
-    </div>
+  - role: "AI/ML Engineer"
+    company: "DataTech Solutions"
+    duration: "2021 - 2022"
+    technologies: ["TensorFlow", "PyTorch", "Python", "Docker"]
     
-    <script>
-        // Create animated stars background
-        function createStars() {
-            const starsContainer = document.querySelector('.stars');
-            const starCount = 100;
-            
-            for (let i = 0; i < starCount; i++) {
-                const star = document.createElement('div');
-                star.className = 'star';
-                star.style.left = Math.random() * 100 + '%';
-                star.style.top = Math.random() * 100 + '%';
-                star.style.animationDelay = Math.random() * 3 + 's';
-                starsContainer.appendChild(star);
-            }
-        }
-        
-        // Generate contribution graph
-        function createContributionGraph() {
-            const graphContainer = document.getElementById('contribution-graph');
-            const totalCells = 365;
-            
-            for (let i = 0; i < totalCells; i++) {
-                const cell = document.createElement('div');
-                cell.className = 'graph-cell';
-                
-                // Randomly assign activity levels
-                const random = Math.random();
-                if (random > 0.8) cell.classList.add('active-4');
-                else if (random > 0.6) cell.classList.add('active-3');
-                else if (random > 0.4) cell.classList.add('active-2');
-                else if (random > 0.2) cell.classList.add('active-1');
-                
-                // Add hover effect
-                cell.addEventListener('mouseenter', function() {
-                    this.style.transform = 'scale(1.5)';
-                });
-                
-                cell.addEventListener('mouseleave', function() {
-                    this.style.transform = 'scale(1)';
-                });
-                
-                graphContainer.appendChild(cell);
-            }
-        }
-        
-        // Create particle effects on skill tag hover
-        function createParticle(x, y) {
-            const particle = document.createElement('div');
-            particle.className = 'particle';
-            particle.style.left = x + 'px';
-            particle.style.top = y + 'px';
-            document.body.appendChild(particle);
-            
-            setTimeout(() => {
-                particle.remove();
-            }, 3000);
-        }
-        
-        // Add particle effects to skill tags
-        document.addEventListener('DOMContentLoaded', function() {
-            const skillTags = document.querySelectorAll('.skill-tag');
-            
-            skillTags.forEach(tag => {
-                tag.addEventListener('mouseenter', function(e) {
-                    const rect = this.getBoundingClientRect();
-                    const x = rect.left + rect.width / 2;
-                    const y = rect.top + rect.height / 2;
-                    
-                    // Create multiple particles
-                    for (let i = 0; i < 3; i++) {
-                        setTimeout(() => {
-                            createParticle(x + (Math.random() - 0.5) * 20, y + (Math.random() - 0.5) * 20);
-                        }, i * 100);
-                    }
-                });
-            });
-            
-            // Animate stat numbers counting up
-            const statNumbers = document.querySelectorAll('.stat-number');
-            statNumbers.forEach(stat => {
-                const target = parseInt(stat.textContent.replace(/\D/g, ''));
-                const suffix = stat.textContent.replace(/[0-9]/g, '');
-                let current = 0;
-                const increment = target / 50;
-                const timer = setInterval(() => {
-                    current += increment;
-                    if (current >= target) {
-                        current = target;
-                        clearInterval(timer);
-                    }
-                    stat.textContent = Math.floor(current) + suffix;
-                }, 40);
-            });
-        });
-        
-        // Initialize everything
-        createStars();
-        createContributionGraph();
-        
-        // Add floating animation to skill categories
-        const skillCategories = document.querySelectorAll('.skill-category');
-        skillCategories.forEach((category, index) => {
-            category.style.animationDelay = (index * 0.2) + 's';
-            category.style.animation = 'fadeInUp 1s ease-out ' + (0.6 + index * 0.1) + 's both';
-        });
-        
-        // Typing animation cycling through different texts
-        const typingTexts = [
-            'Building the future with code and intelligence...',
-            'Crafting elegant solutions to complex problems...',
-            'Exploring the frontiers of AI and machine learning...',
-            'Creating digital experiences that inspire...'
-        ];
-        
-        let currentTextIndex = 0;
-        const typingElement = document.querySelector('.typing-text');
-        
-        function cycleTypingText() {
-            currentTextIndex = (currentTextIndex + 1) % typingTexts.length;
-            typingElement.textContent = typingTexts[currentTextIndex];
-        }
-        
-        setInterval(cycleTypingText, 4000);
-    </script>
-</body>
-</html>
+  - role: "Mobile App Developer"
+    company: "MobileTech Startup"
+    duration: "2020 - 2021"
+    technologies: ["Flutter", "Kotlin", "Firebase"]
+```
+
+---
+
+## 🎓 Certifications & Achievements
+
+<div align="center">
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Microsoft Azure](https://img.shields.io/badge/Microsoft%20Azure-0089D0?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+
+</div>
+
+- 🏆 **AWS Certified Developer Associate**
+- 🏆 **Google Cloud Professional Developer**
+- 🏆 **Microsoft Azure Fundamentals**
+- 🏆 **TensorFlow Developer Certificate**
+- 🏆 **Oracle Java SE 11 Developer**
+
+---
+
+## 📝 Latest Blog Posts
+
+<!-- BLOG-POST-LIST:START -->
+- [Building Scalable AI Applications with Python and TensorFlow](https://medium.com/@mingming/building-scalable-ai-applications)
+- [Flutter vs React Native: A Developer's Perspective](https://dev.to/mingming/flutter-vs-react-native)
+- [10 Machine Learning Projects Every Developer Should Try](https://hashnode.com/@mingming/ml-projects)
+- [Advanced CSS Techniques for Modern Web Development](https://blog.mingming.dev/advanced-css)
+<!-- BLOG-POST-LIST:END -->
+
+---
+
+## 🎮 Fun Zone
+
+<div align="center">
+  <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="400"/>
+</div>
+
+### 🎯 Developer Jokes
+```javascript
+// My code works
+if (myCode.works()) {
+    console.log("I have no idea why this works");
+} else {
+    console.log("I have no idea why this doesn't work");
+}
+
+// The two states of every programmer
+const programmerMood = Math.random() > 0.5 ? "I am God" : "I know nothing";
+```
+
+---
+
+## 📈 Weekly Development Breakdown
+
+```text
+JavaScript   ████████████████████░░░░░   85.2% 
+Python       ████████████░░░░░░░░░░░░░   52.1% 
+Java         ██████░░░░░░░░░░░░░░░░░░░   28.5% 
+C++          ████░░░░░░░░░░░░░░░░░░░░░   18.3% 
+PHP          ███░░░░░░░░░░░░░░░░░░░░░░   15.7% 
+Kotlin       ██░░░░░░░░░░░░░░░░░░░░░░░   12.4% 
+C#           ██░░░░░░░░░░░░░░░░░░░░░░░   10.2% 
+```
+
+---
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=MingMing&style=for-the-badge&color=6366f1" alt="Profile views" />
+  
+  <h3>💖 Thank you for visiting my profile! 💖</h3>
+  <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> 
+  
+  <p><i>⭐️ "Code is poetry, and I'm writing verses that change the world" ⭐️</i></p>
+</div>
+
+---
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=Thanks+for+visiting!;Let's+build+something+amazing+together!;Happy+Coding!+%F0%9F%9A%80" alt="Typing SVG" />
+</div>
