@@ -1,10 +1,10 @@
 # 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:141E30,100:243B55&height=220&section=header&text=MingMing&fontSize=90&fontAlignY=35&animation=twinkling&fontColor=ffffff&desc=AI%20Enthusiast&descAlignY=55&descSize=20" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:141E30,100:243B55&height=220&section=header&text=MingMing&fontSize=90&fontAlignY=35&animation=twinkling&fontColor=ffffff" width="100%"/>
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=35&duration=3000&pause=1000&color=64FFDA&center=true&vCenter=true&multiline=true&width=800&height=120&lines=👋+Hi%2C+I'm+MingMing;🤖+AI+%26+ML+Enthusiast;🌟+Open+Source+Contributor" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=35&duration=3000&pause=1000&color=64FFDA&center=true&vCenter=true&multiline=true&width=800&height=120&lines=👋+Hi%2C+I'm+MingMing" alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -35,14 +35,8 @@
   <a href="https://github.com/asakuraku000">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117&border_radius=20" alt="GitHub"/>
   </a>
-  <a href="mailto:contact@mingming.dev">
+  <a href="mailto:asakuraku000@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335&border_radius=20" alt="Email"/>
-  </a>
-  <a href="https://linkedin.com/in/mingming">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2&border_radius=20" alt="LinkedIn"/>
-  </a>
-  <a href="https://twitter.com/mingming">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=1DA1F2&border_radius=20" alt="Twitter"/>
   </a>
 </div>
 
